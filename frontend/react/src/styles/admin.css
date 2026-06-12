@@ -1,0 +1,26 @@
+.page-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+form{
+  background:white;
+  padding:25px;
+  border-radius:12px;
+}
+
+form input,
+form textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+form button{
+  background:#4F46E5;
+  color:white;
+}

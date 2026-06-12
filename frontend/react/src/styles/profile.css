@@ -1,0 +1,65 @@
+.profile-actions{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  margin-top: 80px;
+  width:300px;
+}
+.profile-btn{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  width:100%;
+  padding:14px 20px;
+  border:none;
+  border-radius:12px;
+  font-size:16px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+  color:white;
+}
+
+/* Account */
+.account-btn{
+  background:linear-gradient(135deg,#4f46e5,#6366f1);
+}
+
+.account-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 20px rgba(79,70,229,.3);
+}
+
+/* Edit */
+.edit-btn{
+  background:linear-gradient(135deg,#0891b2,#06b6d4);
+}
+
+.edit-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 20px rgba(6,182,212,.3);
+}
+
+/* Password */
+.password-btn{
+  background:linear-gradient(135deg,#f59e0b,#fbbf24);
+}
+
+.password-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 20px rgba(245,158,11,.3);
+}
+
+/* Logout */
+.logout-btn{
+  background:linear-gradient(135deg,#dc2626,#ef4444);
+}
+
+.logout-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 20px rgba(239,68,68,.3);
+}
+
+.profile-btn svg{
+  font-size:18px;
+}
